@@ -9,7 +9,7 @@ async function carregar() {
     new Chart(
         document.getElementById("grafico"),
         {
-            type: "bar",
+            type: "pie",
             data: {
                 labels: dados.map(t => t.time),
                 datasets: [{
