@@ -12,7 +12,7 @@ async function carregarGrafico() {
     new Chart(
         document.getElementById("grafico"),
         {
-            type: "bar",
+            type: "line",
             data: {
                 labels: nomes,
                 datasets: [{
